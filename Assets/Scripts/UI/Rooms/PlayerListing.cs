@@ -10,6 +10,7 @@ public class PlayerListing : MonoBehaviour
     private Text text;
 
     public Player player { get; private set; }
+    public bool Ready { get; set; }
 
     public void SetPlayerInfo(Player _player)
     {
@@ -19,7 +20,7 @@ public class PlayerListing : MonoBehaviour
         {
             result = (int)player.CustomProperties["RandomNumber"];
         }
-        text.text = result.ToString() + ", "+ player.NickName;
+        text.text = result.ToString() + ", " + player.NickName;
     }
 
 

@@ -33,5 +33,6 @@ MonoBehaviour:
   - Fire
   - RespawnSpaceship
   - CollectHealth
+  - RPC_ChangeReadyState
   DisableAutoOpenWizard: 1
   ShowSettings: 0
